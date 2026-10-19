@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Ersoga's pixel terminal — compact layout</title>
+  <desc id="description">Amber pixel lettering on a charcoal terminal, with an original pixel computer and a small plant. Hello, world. Keep learning.</desc>
+  <defs>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0H4" stroke="#000" stroke-opacity="0.15" />
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="#5D5648" fill-opacity="0.18" />
+    </pattern>
+    <style>
+      .cursor { animation: blink 1.2s steps(1, end) infinite; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="558" height="298" fill="#151617" stroke="#454239" stroke-width="2" />
+  <path d="M2 2H558V33H2Z" fill="#252522" />
+  <path d="M2 34H558" stroke="#454239" />
+  <rect x="18" y="13" width="8" height="8" fill="#D47A57" />
+  <rect x="34" y="13" width="8" height="8" fill="#D5AF62" />
+  <rect x="50" y="13" width="8" height="8" fill="#7D9673" />
+  <g font-family="'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#A6A18F">
+    <text x="84" y="21">ersoga@github: ~/home</text>
+  </g>
+  <rect x="306" y="35" width="252" height="236" fill="url(#dots)" />
+  <g shape-rendering="crispEdges">
+    <path transform="translate(-14 0)" fill="#938C78" d="M40 62h2v2h-2zM48 62h2v2h-2zM40 64h2v2h-2zM48 64h2v2h-2zM40 66h2v2h-2zM48 66h2v2h-2zM40 68h2v2h-2zM42 68h2v2h-2zM44 68h2v2h-2zM46 68h2v2h-2zM48 68h2v2h-2zM40 70h2v2h-2zM48 70h2v2h-2zM40 72h2v2h-2zM48 72h2v2h-2zM40 74h2v2h-2zM48 74h2v2h-2zM52 62h2v2h-2zM54 62h2v2h-2zM56 62h2v2h-2zM58 62h2v2h-2zM60 62h2v2h-2zM52 64h2v2h-2zM52 66h2v2h-2zM52 68h2v2h-2zM54 68h2v2h-2zM56 68h2v2h-2zM58 68h2v2h-2zM52 70h2v2h-2zM52 72h2v2h-2zM52 74h2v2h-2zM54 74h2v2h-2zM56 74h2v2h-2zM58 74h2v2h-2zM60 74h2v2h-2zM64 62h2v2h-2zM64 64h2v2h-2zM64 66h2v2h-2zM64 68h2v2h-2zM64 70h2v2h-2zM64 72h2v2h-2zM64 74h2v2h-2zM66 74h2v2h-2zM68 74h2v2h-2zM70 74h2v2h-2zM72 74h2v2h-2zM76 62h2v2h-2zM76 64h2v2h-2zM76 66h2v2h-2zM76 68h2v2h-2zM76 70h2v2h-2zM76 72h2v2h-2zM76 74h2v2h-2zM78 74h2v2h-2zM80 74h2v2h-2zM82 74h2v2h-2zM84 74h2v2h-2zM90 62h2v2h-2zM92 62h2v2h-2zM94 62h2v2h-2zM88 64h2v2h-2zM96 64h2v2h-2zM88 66h2v2h-2zM96 66h2v2h-2zM88 68h2v2h-2zM96 68h2v2h-2zM88 70h2v2h-2zM96 70h2v2h-2zM88 72h2v2h-2zM96 72h2v2h-2zM90 74h2v2h-2zM92 74h2v2h-2zM94 74h2v2h-2zM104 72h2v2h-2zM106 72h2v2h-2zM104 74h2v2h-2zM106 74h2v2h-2zM124 62h2v2h-2zM132 62h2v2h-2zM124 64h2v2h-2zM132 64h2v2h-2zM124 66h2v2h-2zM132 66h2v2h-2zM124 68h2v2h-2zM128 68h2v2h-2zM132 68h2v2h-2zM124 70h2v2h-2zM128 70h2v2h-2zM132 70h2v2h-2zM124 72h2v2h-2zM128 72h2v2h-2zM132 72h2v2h-2zM126 74h2v2h-2zM130 74h2v2h-2zM138 62h2v2h-2zM140 62h2v2h-2zM142 62h2v2h-2zM136 64h2v2h-2zM144 64h2v2h-2zM136 66h2v2h-2zM144 66h2v2h-2zM136 68h2v2h-2zM144 68h2v2h-2zM136 70h2v2h-2zM144 70h2v2h-2zM136 72h2v2h-2zM144 72h2v2h-2zM138 74h2v2h-2zM140 74h2v2h-2zM142 74h2v2h-2zM148 62h2v2h-2zM150 62h2v2h-2zM152 62h2v2h-2zM154 62h2v2h-2zM148 64h2v2h-2zM156 64h2v2h-2zM148 66h2v2h-2zM156 66h2v2h-2zM148 68h2v2h-2zM150 68h2v2h-2zM152 68h2v2h-2zM154 68h2v2h-2zM148 70h2v2h-2zM152 70h2v2h-2zM148 72h2v2h-2zM154 72h2v2h-2zM148 74h2v2h-2zM156 74h2v2h-2zM160 62h2v2h-2zM160 64h2v2h-2zM160 66h2v2h-2zM160 68h2v2h-2zM160 70h2v2h-2zM160 72h2v2h-2zM160 74h2v2h-2zM162 74h2v2h-2zM164 74h2v2h-2zM166 74h2v2h-2zM168 74h2v2h-2zM172 62h2v2h-2zM174 62h2v2h-2zM176 62h2v2h-2zM178 62h2v2h-2zM172 64h2v2h-2zM180 64h2v2h-2zM172 66h2v2h-2zM180 66h2v2h-2zM172 68h2v2h-2zM180 68h2v2h-2zM172 70h2v2h-2zM180 70h2v2h-2zM172 72h2v2h-2zM180 72h2v2h-2zM172 74h2v2h-2zM174 74h2v2h-2zM176 74h2v2h-2zM178 74h2v2h-2z" />
+    <path transform="translate(-2 30) scale(0.7)" fill="#553F29" d="M43 104h10v10h-10zM53 104h10v10h-10zM63 104h10v10h-10zM73 104h10v10h-10zM83 104h10v10h-10zM43 114h10v10h-10zM43 124h10v10h-10zM43 134h10v10h-10zM53 134h10v10h-10zM63 134h10v10h-10zM73 134h10v10h-10zM43 144h10v10h-10zM43 154h10v10h-10zM43 164h10v10h-10zM53 164h10v10h-10zM63 164h10v10h-10zM73 164h10v10h-10zM83 164h10v10h-10zM103 104h10v10h-10zM113 104h10v10h-10zM123 104h10v10h-10zM133 104h10v10h-10zM103 114h10v10h-10zM143 114h10v10h-10zM103 124h10v10h-10zM143 124h10v10h-10zM103 134h10v10h-10zM113 134h10v10h-10zM123 134h10v10h-10zM133 134h10v10h-10zM103 144h10v10h-10zM123 144h10v10h-10zM103 154h10v10h-10zM133 154h10v10h-10zM103 164h10v10h-10zM143 164h10v10h-10zM173 104h10v10h-10zM183 104h10v10h-10zM193 104h10v10h-10zM203 104h10v10h-10zM163 114h10v10h-10zM163 124h10v10h-10zM173 134h10v10h-10zM183 134h10v10h-10zM193 134h10v10h-10zM203 144h10v10h-10zM203 154h10v10h-10zM163 164h10v10h-10zM173 164h10v10h-10zM183 164h10v10h-10zM193 164h10v10h-10zM233 104h10v10h-10zM243 104h10v10h-10zM253 104h10v10h-10zM223 114h10v10h-10zM263 114h10v10h-10zM223 124h10v10h-10zM263 124h10v10h-10zM223 134h10v10h-10zM263 134h10v10h-10zM223 144h10v10h-10zM263 144h10v10h-10zM223 154h10v10h-10zM263 154h10v10h-10zM233 164h10v10h-10zM243 164h10v10h-10zM253 164h10v10h-10zM293 104h10v10h-10zM303 104h10v10h-10zM313 104h10v10h-10zM323 104h10v10h-10zM283 114h10v10h-10zM283 124h10v10h-10zM283 134h10v10h-10zM303 134h10v10h-10zM313 134h10v10h-10zM323 134h10v10h-10zM283 144h10v10h-10zM323 144h10v10h-10zM283 154h10v10h-10zM323 154h10v10h-10zM293 164h10v10h-10zM303 164h10v10h-10zM313 164h10v10h-10zM323 164h10v10h-10zM353 104h10v10h-10zM363 104h10v10h-10zM373 104h10v10h-10zM343 114h10v10h-10zM383 114h10v10h-10zM343 124h10v10h-10zM383 124h10v10h-10zM343 134h10v10h-10zM353 134h10v10h-10zM363 134h10v10h-10zM373 134h10v10h-10zM383 134h10v10h-10zM343 144h10v10h-10zM383 144h10v10h-10zM343 154h10v10h-10zM383 154h10v10h-10zM343 164h10v10h-10zM383 164h10v10h-10z" />
+    <path transform="translate(-2 30) scale(0.7)" fill="#F0CB7A" d="M40 100h10v10h-10zM50 100h10v10h-10zM60 100h10v10h-10zM70 100h10v10h-10zM80 100h10v10h-10zM40 110h10v10h-10zM40 120h10v10h-10zM40 130h10v10h-10zM50 130h10v10h-10zM60 130h10v10h-10zM70 130h10v10h-10zM40 140h10v10h-10zM40 150h10v10h-10zM40 160h10v10h-10zM50 160h10v10h-10zM60 160h10v10h-10zM70 160h10v10h-10zM80 160h10v10h-10zM100 100h10v10h-10zM110 100h10v10h-10zM120 100h10v10h-10zM130 100h10v10h-10zM100 110h10v10h-10zM140 110h10v10h-10zM100 120h10v10h-10zM140 120h10v10h-10zM100 130h10v10h-10zM110 130h10v10h-10zM120 130h10v10h-10zM130 130h10v10h-10zM100 140h10v10h-10zM120 140h10v10h-10zM100 150h10v10h-10zM130 150h10v10h-10zM100 160h10v10h-10zM140 160h10v10h-10zM170 100h10v10h-10zM180 100h10v10h-10zM190 100h10v10h-10zM200 100h10v10h-10zM160 110h10v10h-10zM160 120h10v10h-10zM170 130h10v10h-10zM180 130h10v10h-10zM190 130h10v10h-10zM200 140h10v10h-10zM200 150h10v10h-10zM160 160h10v10h-10zM170 160h10v10h-10zM180 160h10v10h-10zM190 160h10v10h-10zM230 100h10v10h-10zM240 100h10v10h-10zM250 100h10v10h-10zM220 110h10v10h-10zM260 110h10v10h-10zM220 120h10v10h-10zM260 120h10v10h-10zM220 130h10v10h-10zM260 130h10v10h-10zM220 140h10v10h-10zM260 140h10v10h-10zM220 150h10v10h-10zM260 150h10v10h-10zM230 160h10v10h-10zM240 160h10v10h-10zM250 160h10v10h-10zM290 100h10v10h-10zM300 100h10v10h-10zM310 100h10v10h-10zM320 100h10v10h-10zM280 110h10v10h-10zM280 120h10v10h-10zM280 130h10v10h-10zM300 130h10v10h-10zM310 130h10v10h-10zM320 130h10v10h-10zM280 140h10v10h-10zM320 140h10v10h-10zM280 150h10v10h-10zM320 150h10v10h-10zM290 160h10v10h-10zM300 160h10v10h-10zM310 160h10v10h-10zM320 160h10v10h-10zM350 100h10v10h-10zM360 100h10v10h-10zM370 100h10v10h-10zM340 110h10v10h-10zM380 110h10v10h-10zM340 120h10v10h-10zM380 120h10v10h-10zM340 130h10v10h-10zM350 130h10v10h-10zM360 130h10v10h-10zM370 130h10v10h-10zM380 130h10v10h-10zM340 140h10v10h-10zM380 140h10v10h-10zM340 150h10v10h-10zM380 150h10v10h-10zM340 160h10v10h-10zM380 160h10v10h-10z" />
+    <rect x="285" y="136" width="12" height="14" fill="#F0CB7A" class="cursor" />
+    <rect x="88" y="76" width="2" height="2" fill="#938C78" />
+    <path d="M304 78H316M310 72V84M532 66H544M538 60V72" stroke="#665B43" stroke-width="2" />
+    <path d="M310 254H545" stroke="#555044" stroke-width="2" />
+    <path d="M328 264H530" stroke="#302F2B" stroke-width="2" />
+
+    <!-- A hand-drawn pixel computer, on a four-pixel grid. -->
+    <g transform="translate(328 96) scale(3.2)">
+      <path d="M6 0H42V2H46V4H48V32H46V34H4V32H2V4H4V2H6Z" fill="#6E6A5D" />
+      <path d="M6 1H42V3H45V5H46V30H44V32H5V30H4V5H6Z" fill="#A9A38D" />
+      <path d="M6 3H43V5H6Z" fill="#D2C8AB" />
+      <path d="M6 5H8V28H6Z" fill="#C7BEA3" />
+      <path d="M9 6H40V27H9Z" fill="#625E50" />
+      <path d="M10 7H39V26H10Z" fill="#1A2622" />
+      <path d="M11 8H38V25H11Z" fill="#23372C" />
+      <path d="M12 9H37V10H12ZM12 12H37V13H12ZM12 15H37V16H12ZM12 18H37V19H12ZM12 21H37V22H12ZM12 24H37V25H12Z" fill="#17271E" fill-opacity="0.5" />
+      <path d="M13 10H14V11H15V12H14V13H13M17 13H21" stroke="#DAAE64" stroke-width="1" />
+      <path d="M17 16H20V19H17ZM29 16H32V19H29Z" fill="#E5C480" />
+      <path d="M19 21H21V22H28V21H30V23H28V24H21V23H19Z" fill="#E5C480" />
+      <path d="M42 10H44V12H42ZM42 15H44V17H42Z" fill="#696654" />
+      <path d="M40 29H42V30H40Z" fill="#A8BC85" />
+      <path d="M8 29H14V30H8Z" fill="#77745F" />
+      <path d="M20 34H31V38H20Z" fill="#777360" />
+      <path d="M22 34H30V37H22Z" fill="#A29B82" />
+      <path d="M15 38H36V40H15Z" fill="#B6AC90" />
+      <path d="M7 42H44V43H47V45H49V49H0V46H2V44H5V43H7Z" fill="#6F6B5C" />
+      <path d="M6 43H44V45H47V48H2V46H4V44H6Z" fill="#B9AF93" />
+      <path d="M7 44H10V45H7ZM12 44H15V45H12ZM17 44H20V45H17ZM22 44H25V45H22ZM27 44H30V45H27ZM32 44H35V45H32ZM37 44H40V45H37ZM5 46H9V47H5ZM11 46H15V47H11ZM17 46H33V47H17ZM35 46H39V47H35ZM41 46H45V47H41Z" fill="#706B59" />
+    </g>
+
+    <!-- A floppy disk and a little cactus. -->
+    <g transform="translate(496 183) scale(2.4)">
+      <path d="M7 0H10V2H11V8H13V5H15V11H11V19H7V13H3V7H5V10H7Z" fill="#7E9C6D" />
+      <path d="M8 1H9V18H8ZM4 8H5V11H4ZM14 6H15V10H14Z" fill="#B0BB82" />
+      <path d="M3 19H15V22H14V28H4V22H3Z" fill="#AD7957" />
+      <path d="M4 19H15V21H4Z" fill="#CD9B6A" />
+      <path d="M5 22H7V27H5Z" fill="#C28E61" />
+      <path d="M4 28H14V29H4Z" fill="#6F4F3D" />
+    </g>
+  </g>
+  <g font-family="'Cascadia Code', Consolas, 'Liberation Mono', monospace">
+    <text x="26" y="207" fill="#BEB8A6" font-size="12">A little code. A lot of curiosity.</text>
+    <text x="26" y="243" fill="#8EA17E" font-size="11">&gt;</text>
+    <text x="45" y="243" fill="#968E79" font-size="11">keep_learning --forever</text>
+  </g>
+  <path d="M2 272H558" stroke="#454239" />
+  <rect x="2" y="273" width="556" height="25" fill="#1E201E" />
+  <g font-family="'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="10" fill="#8D8C79">
+    <text x="18" y="289">[ HOME ]</text>
+    <text x="117" y="289">CODE / LEARN / REPEAT</text>
+    <text x="422" y="289">UTF-8  /  READY</text>
+  </g>
+  <rect x="2" y="35" width="556" height="236" fill="url(#scanlines)" pointer-events="none" />
+</svg>
